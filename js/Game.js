@@ -5,7 +5,7 @@ class Game {
     this.icons = icons;
 
     this.title = document.createElement('h3');
-    this.title.innerText = 'Make our choice';
+    this.title.innerText = 'Make your choice';
     container.appendChild(this.title);
 
     icons.forEach((icon, hand) => {
