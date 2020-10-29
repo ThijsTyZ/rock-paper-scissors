@@ -8,9 +8,24 @@
 </head>
 <body>
     <h1>Rock Paper Scissors</h1>
-    <div id="container"></div>
+    <div id="skin-tone1"></div>
     <script type="text/javascript">
-        new Game(document.querySelector('#container'), ['✊', '✋', '✌']);
+        new Game(document.querySelector('#skin-tone1'), ['✊🏾', '🤚🏾', '✌🏾']);
+    </script>
+
+    <div id="skin-tone2"></div>
+    <script type="text/javascript">
+      new Game(document.querySelector('#skin-tone2'), ['✊🏻', '🤚🏻', '✌🏻']);
+    </script>
+
+    <div id="animals"></div>
+    <script type="text/javascript">
+      new Game(document.querySelector('#animals'), ['🐭', '🐱', '🐘']);
+    </script>
+
+    <div id="icons"></div>
+    <script type="text/javascript">
+      new Game(document.querySelector('#icons'), ['💎', '📄', '✂']);
     </script>
 </body>
 </html>
